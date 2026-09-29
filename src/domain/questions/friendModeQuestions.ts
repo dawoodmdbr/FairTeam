@@ -1,0 +1,68 @@
+import type { QuestionDefinition } from './questionSetProvider';
+
+export const FRIEND_MODE_QUESTIONS: QuestionDefinition[] = [
+  {
+    id: 'f-1',
+    mode: 'friend',
+    text: 'Weekly hours available for the project',
+    type: 'single_choice',
+    options: ['0-5', '5-10', '10-15', '15+'],
+    sortOrder: 1,
+  },
+  {
+    id: 'f-2',
+    mode: 'friend',
+    text: 'Work rhythm: early starter vs. last-minute pusher',
+    type: 'scale',
+    options: ['1', '5'],
+    sortOrder: 2,
+  },
+  {
+    id: 'f-3',
+    mode: 'friend',
+    text: 'Most active hours',
+    type: 'single_choice',
+    options: ['Morning', 'Afternoon', 'Evening', 'Night'],
+    sortOrder: 3,
+  },
+  {
+    id: 'f-4',
+    mode: 'friend',
+    text: 'Communication style: calls/meetings vs. async text',
+    type: 'scale',
+    options: ['1', '5'],
+    sortOrder: 4,
+  },
+  {
+    id: 'f-5',
+    mode: 'friend',
+    text: 'Planning style: detailed task boards vs. figure-it-out-as-you-go',
+    type: 'scale',
+    options: ['1', '5'],
+    sortOrder: 5,
+  },
+  {
+    id: 'f-6',
+    mode: 'friend',
+    text: 'Conflict handling: speaks up immediately vs. avoids confrontation',
+    type: 'scale',
+    options: ['1', '5'],
+    sortOrder: 6,
+  },
+  {
+    id: 'f-7',
+    mode: 'friend',
+    text: 'Preferred role(s)',
+    type: 'multi_select',
+    options: ['Frontend', 'Backend', 'Design', 'Docs', 'Testing', 'Management'],
+    sortOrder: 7,
+  },
+  {
+    id: 'f-8',
+    mode: 'friend',
+    text: 'Topic interest',
+    type: 'multi_select',
+    options: ['Web', 'Mobile', 'AI', 'ERP', 'Other'],
+    sortOrder: 8,
+  },
+];
