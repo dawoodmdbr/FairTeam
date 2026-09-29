@@ -9,8 +9,8 @@ import type { Session } from '../domain/session';
 import type { Participant } from '../domain/participant';
 
 describe('MatchingService Orchestration (Integration)', () => {
-  let sessionStore: Record<string, Session> = {};
-  let participantStore: Record<string, Participant> = {};
+  const sessionStore: Record<string, Session> = {};
+  const participantStore: Record<string, Participant> = {};
   let winningTeamsSaved: any[] = [];
   let alternativeGroupingsSaved: any[] = [];
 
